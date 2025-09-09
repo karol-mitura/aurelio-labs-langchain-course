@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(D:\\Karol\\work\\Techniczne\\Szkolenia\\AurelioLabs_Langchain\\chapters\\09-capstone/**)",
+      "Read(D:\\Karol\\work\\Techniczne\\Szkolenia\\AurelioLabs_Langchain\\chapters/**)",
+      "Read(D:\\Karol\\work\\Techniczne\\Szkolenia\\AurelioLabs_Langchain/**)",
+      "Read(D:\\Karol\\work\\Techniczne\\Szkolenia\\AurelioLabs_Langchain/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

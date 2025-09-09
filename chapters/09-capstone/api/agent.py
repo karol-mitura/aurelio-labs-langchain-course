@@ -1,6 +1,7 @@
 import asyncio
 import aiohttp
 import os
+from dotenv import load_dotenv
 
 from langchain.callbacks.base import AsyncCallbackHandler
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, ToolMessage
@@ -12,6 +13,7 @@ from pydantic import BaseModel, SecretStr
 
 
 # Constants and Configuration
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '..', '..', '.env'))
 OPENAI_API_KEY = SecretStr(os.environ["OPENAI_API_KEY"])
 SERPAPI_API_KEY = SecretStr(os.environ["SERPAPI_API_KEY"])
 
